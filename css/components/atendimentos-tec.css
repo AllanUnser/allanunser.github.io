@@ -1,0 +1,21 @@
+.atendimentos-tec{
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    width: 350px;
+}
+
+.atendimentos-tec .icon{
+    margin-right: 25px;
+}
+
+.atendimentos-tec .bar{
+    color: rgb(113, 113, 122);
+    font-size: 16px;
+    font-family: "inter", sans-serif;
+    line-height: 22.4px;
+    text-align: left;
+    font-weight: normal;
+}

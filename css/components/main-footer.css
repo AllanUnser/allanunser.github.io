@@ -1,0 +1,17 @@
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(170, 170, 170);
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

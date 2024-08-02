@@ -1,0 +1,13 @@
+.main-title {
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #D9A566;
+    text-shadow: 4px 4px 0 black;
+    text-align: center;
+}
+
+.main-title.-second{
+    color: #D9A566;
+    text-shadow: 4px 4px 0 none;
+    text-align: center;
+}

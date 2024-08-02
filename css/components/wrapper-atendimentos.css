@@ -1,0 +1,11 @@
+.wrapper-atendimentos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-atendimentos .atendimentos-tec{
+    width: 430px;
+}

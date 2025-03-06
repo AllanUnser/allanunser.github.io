@@ -39,10 +39,10 @@
         <img src="assents/img/logo.png" alt="logo_Allan">
     
             <nav> <!-- Navigator - Navegação, tag utilizada para navegar entre links do site -->
-                <a class="main-action" href="" lang="en">Skills</a>
-                <a class="main-action" href="">Projetos</a>
-                <a class="main-action" href="">Sobre</a>
-                <a class="main-action" href="">Contatos</a>
+                <a class="main-action" href="#Skills" lang="en">Skills</a>
+                <a class="main-action" href="#Projetos">Projetos</a>
+                <a class="main-action" href="#Sobre">Sobre</a>
+                <a class="main-action" href="#Contatos">Contatos</a>
                 <a class="main-button" href="" lang="en">Download CV</a>
             </nav>
     </header>
@@ -55,13 +55,13 @@
                 </div>
                 <div class="navigation">
                     <a class="main-button" href="" lang="en">Download CV</a>
-                    <a class="main-button" href="">Contatos</a>
+                    <a class="main-button" href="#Contatos">Contatos</a>
                 </div>
             </div>
         </section>
 
         <section class="main-section">
-            <h2 class="main-title -second">Skills</h2>
+            <h2 id="Skills" class="main-title -second">Skills</h2>
 
             <div class="wrapper-skill">
                 <article class="skill-tec"> <!-- Descripiton List-->
@@ -133,17 +133,17 @@
         </section>
            
         <section class="main-section -bgBlack -bdFirst">
-            <h2 class="main-title -second">Projetos</h2>
+            <h2 id="Projetos" class="main-title -second">Projetos</h2>
             <div class="wrapper-card">
-                <a href="https://www.firedlabs.com" target="_blank">
+                <a href="https://mottafilhoadvogados.com.br" target="_blank">
                     <figure class="card-project">
-                        <img src="assents/img/logo-firedlabs.png" alt="Logo-FireLab">
+                        <img src="assents/img/Logo_Motta.png" alt="Logo-Motta">
                     </figure>
                 </a>
 
-                <a href="https://www.collabcode.training.com" target="_blank">
+                <a href="https://cancelamentodevoos.mottafilhoadvogados.com.br" target="_blank">
                     <figure class="card-project -blue">
-                        <img src="assents/img/logo-collabcode.png" alt="Logo-collabcode">
+                        <img src="assents/img/logo_CancelamentoVoo.png" alt="Logo-Cancelameto_Voo">
                     </figure>
                 </a>
 
@@ -156,7 +156,7 @@
         </section>
 
         <section class="main-section -bgSecond -bdBlack">
-            <h2 class="main-title -second">Sobre</h2>
+            <h2 id="Sobre" class="main-title -second">Sobre</h2>
 
             
             <section class="main-carousel">
@@ -204,16 +204,16 @@
         </section>
 
         <form class="main-form">
-            <legend class="main-title -second">Contatos</legend>
+            <legend id="Contatos" class="main-title -second">Contatos</legend>
 
             <label class="main-label" for="name">Nome</label>
-            <input class="main-input" id="name" type="text">
+            <input class="main-input" id="name" type="text" required>
 
             <label class="main-label" for="email">E-mail</label>
-            <input class="main-input" id="email" type="email" name="" id="">
+            <input class="main-input" id="email" type="email" required>
 
             <label class="main-label" for="message">Message</label>
-            <textarea class="main-input -textarea" id="message"></textarea>
+            <textarea class="main-input -textarea" id="message" required></textarea>
 
             <button class="main-button -full" type="submit">Enviar</button>
         </form>
